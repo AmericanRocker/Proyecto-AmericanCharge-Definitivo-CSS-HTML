@@ -1,0 +1,49 @@
+body{
+    background-color:rgb(203, 238, 251);
+}
+
+.main-nav {
+    margin: 0px;       /* --margin: Es un espacio externo del contenedor. */
+    list-style: none;  /* --list-style: Estilo de viñeta de una lista */
+    padding:10px;   /* --padding: Es un espacio interno en un contenedor. */
+    background-color: rgb(51, 71, 101);  /* -- background-color: Color de fondo */
+}
+.main-nav__item {
+    display:inline-block;   /* --*/
+}
+
+.main-nav__item a {
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    
+} 
+
+.main-text {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    border: solid;
+    border-color:rgb(51, 71, 101) ;
+}
+
+/*Pseudo-Clases*/   /*-----Definen el estilo de un estado de un elemento*/
+.main-nav__item a:hover{
+    background-color: rgba(8, 190, 144, 0.945);  
+    
+}
+.main-nav__item a:active{    /*-----Define el estilo de una parte especifica de un elemento*/
+    color:  rgb(51, 71, 101);; 
+}
+    
+/* Pseudo-Elementos
+.main-nav__item a::after{
+    content: " /> ";
+} */
+
+
+
+

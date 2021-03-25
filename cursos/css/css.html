@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Pagina de curso CSS" /> 
+    <link rel="stylesheet" href="/cursos/css/css.css" />
+    <title>Curso:CSS3</title>
+</head>
+<body>
+    <header>
+        <a href="/cursos/cursos.html">CURSOS</a>
+    </header>
+    <main>
+        <section>
+            <h1>Bienvenido al curso de CSS3</h1>
+            <p>CSS (hojas de estilo en cascada) es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML).<br><br>Así, a los elementos de la página web creados con HTML se les dará la apariencia que se desee utilizando CSS: colores, espacios entre elementos, tipos de letra, ... separando de esta forma la estructura de la presentación.</p>
+            <p>Esta separación entre la estructura y la presentación es muy importante, ya que permite que sólo cambiando los CSS se modifique completamente el aspecto de una página web. Esto posibilita, entre otras cosas, que los usuarios puedan usar hojas de estilo personalizadas (como hojas de estilo de alto contraste o de accesibilidad).</p>
+        </section>
+        <figure>
+            <img src="/cursos/css/Images-CSS/CSS3-modulos.jpg" alt="HistoriaCSS" width="400px" />
+            <figcaption><small>Versiones CCS</small></figcaption>
+        </figure>
+        <section>
+            <ol>
+                <h2><li>Insertar CSS en Proyectos</h2>
+                        <p>Hay varias formas de porder insertar el codigo CSS a un proyecto real, a continuación te mostraremos con ejemplos claros cada una de estas formas:</p><br>
+                        <ul>
+                            <li><b><em>Etiqueta LINK:</em></b>
+                                <p>
+                                    Esta etiqueta se crea en el head de nuestro <strong>HTML</strong> y se enlaza por medio de la ruta espesifica de nuestro archivo CSS que va a contener todos los estilos para integrar a en nuestro proyecto, puede ser tán extenso como lo necesites y generarlo de esta forma es una de las <strong>mejores prácticas</strong> como desarrollador profesional.
+                                </p>
+                                <figure>
+                                    <img src="/cursos/css/Images-CSS/etiquetaLink.jpg" alt="Etiqueta Link" width="600px" />
+                                    <figcaption><small>Etiqueta de Enlace CCS</small></figcaption>
+                                </figure>
+                            </li><br>
+                            <li><b><em>Etiqueta Style</em></b>
+                                <p>
+                                    Esta etiqueta de apertura y cierre se crea directamete en el <strong>Head</strong>, dentro de ella podemos insertar todo el código CSS darle así estilos a nuesto proyecto de una forma sencilla sin crear archivos adicionales.<br>
+                                    Esta forma de insertar estilos CSS es considerada una mala práctica en el desarrollo profesional, ya que al ser muy extenso el código podria ralentizar nuestra página.
+                                </p>
+                                <figure>
+                                    <img src="/cursos/css/Images-CSS/EtiquetaStyle.jpg" alt="Etiqueta Style" width="600px" />
+                                    <figcaption><small>Etiqueta Style</small></figcaption>
+                                </figure>
+                            </li><br>
+                            <li><b><em>Atributo Style</em></b>
+                                <p>
+                                    Con el atributo de <strong>Style</strong> digitado directamente en la etiqueta, podrás darle estilos directamente a cada elemento que necesites. No es muy aconsejable para desarrollo profesional, ya que no sigue con las pautas de las buenas practicas en desarrollo web.
+                                </p>
+                                <figure>
+                                    <img src="/cursos/css/Images-CSS/AtributoStyle.png" alt="Atributo Style" width="600px" />
+                                    <figcaption><small>Atributo Style</small></figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                    </li>
+                <h2><li>Pseudo-Clases y Pseudo-Elementos</h2>
+                        <ul>
+                            <li>
+                                <b><em>Pseudo-Clases</em></b>
+                                <p>
+                                    Una <b>pseudoclase</b> CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Por ejemplo,  :hover aplicará un estilo cuando el usuario haga hover sobre el elemento especificado por el selector.
+                                </p>
+                                <figure>
+                                    <img src="/cursos/css/Images-CSS/pseudoclases.png" alt="CodigoPseudoclase" width="600px" />
+                                    <figcaption><small>Codigo Pseudoclase</small></figcaption>
+                                    <br>
+                                    <img src="/cursos/css/Images-CSS/pseudoclaseNavegador.png" alt="pseudoclaseNavegador" width="600px" /> 
+                                    <figcaption><small>Pseudoclase Navegador</small></figcaption>
+                                </figure>
+                            </li><br>
+                            <li>
+                                <b><em>Pseudo-Elementos</em></b>
+                                <p>
+                                    Al igual que las pseudo-classes, los <b>pseudo-elementos</b> se añaden a los selectores, pero en cambio, no describen un estado especial sino que, permiten añadir estilos a una parte concreta del documento. Por ejemplo, el pseudoelemento ::first-line selecciona solo la primera línea del elemento especificado por el selector.
+                                </p>
+                                <figure>
+                                    <img src="/cursos/css/Images-CSS/PseudoElementos.png" alt="PseudoelentosCodigo" width="600px" />
+                                    <figcaption><small>Codigo PseudoElemento</small></figcaption>
+                                    <br>
+                                    <img src="/cursos/css/Images-CSS/PseudoelemntosNavegador.png" alt="PseudoelentosNavegador" width="600px" />
+                                    <figcaption><small>PseudoElemento Navegador</small></figcaption>
+                                </figure>
+                            </li>
+
+                        </ul>
+                    </li>
+                <h2><li>Anatomía de una regla en CSS</h2>
+                        <p>La anatomía de una regla de estilos en <b>CSS</b> se compone de varias partes, los estilos pueden variar, pero su estructura siempre será la misma, a continuación tienes una infografia detallada. 
+                        </p>
+                        <figure>
+                            <img src="./Images-CSS/reglacss_xl.png" alt="ReglaCSS" width="600px" />
+                            <figcaption><small>Regla de Estilos CSS</small></figcaption>
+                        </figure>
+
+                    </li>
+            </ol>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
