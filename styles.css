@@ -1,49 +1,217 @@
-body{
-    background-color:rgb(203, 238, 251);
+/*SELECTOR UNIVERSAL*/
+
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box; /*Establece la configuracion de calculo del modelo de caja*/
+    padding: 0px; /* --Configura las preferencias del navegador en padding*/
+    margin: 0px; /* --Configura las preferencias del navegador en margin*/
+    /* font-size: 62.5%; */
 }
 
-.main-nav {
-    margin: 0px;       /* --margin: Es un espacio externo del contenedor. */
-    list-style: none;  /* --list-style: Estilo de viñeta de una lista */
-    padding:10px;   /* --padding: Es un espacio interno en un contenedor. */
-    background-color: rgb(51, 71, 101);  /* -- background-color: Color de fondo */
+
+
+html {
+    font-size: 62.5%;
 }
-.main-nav__item {
+
+body {
+    /* background-color:rgb(203, 238, 251); */
+    background-color:rgb(251, 251, 251);
+} 
+
+
+
+
+
+/*INICIO DE HEADER--BARRA NAVEGACION PRINCIPAL1*/
+.main-nav1 {
+    margin: 0 auto;       /* --margin: Es un espacio externo del contenedor. */
+    list-style: none;  /* --list-style: Estilo de viñeta de una lista */
+    padding:1rem;   /* --padding: Es un espacio interno en un contenedor. */
+    background-color: rgb(9, 134, 123);  /* -- background-color: Color de fondo */ 
+    text-align: center; 
+}
+.main-nav1__item {
     display:inline-block;   /* --*/
 }
 
-.main-nav__item a {
+.main-nav1__item a {
+    
     color: whitesmoke;
-    padding: 10px;
+    padding: 10px 40px;
     border-radius: 2px;
     text-decoration: none;
-    
+    font-size: 1.6rem;
 } 
 
-.main-text {
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin: 10px;
-    padding: 5px;
-    border: solid;
-    border-color:rgb(51, 71, 101) ;
-}
-
-/*Pseudo-Clases*/   /*-----Definen el estilo de un estado de un elemento*/
-.main-nav__item a:hover{
+.main-nav1__item a:hover{     /*Pseudo-Clases*/   /*-----Definen el estilo de un estado de un elemento*/
     background-color: rgba(8, 190, 144, 0.945);  
     
 }
-.main-nav__item a:active{    /*-----Define el estilo de una parte especifica de un elemento*/
-    color:  rgb(51, 71, 101);; 
+
+.main-nav1__item a:active{    /*-----Define el estilo de una parte especifica de un elemento*/
+    color:  rgb(10, 61, 46); 
 }
-    
-/* Pseudo-Elementos
-.main-nav__item a::after{
+
+/*
+.main-nav1__item a::after{    ------Pseudo-Elementos Adiciona directamente items a un elemento 
     content: " /> ";
 } */
 
+
+
+/*
+.main-nav2__item a::after{    ------Pseudo-Elementos Adiciona directamente items a un elemento 
+    content: " /> ";
+} */
+
+
+
+
+
+
+
+
+/*INICIO DE MAIN*/
+
+main {
+    /* background-color:rgb(241, 222, 138); */
+    background-color: honeydew;
+    width: 100vw;
+    min-height: 300px;
+
+}
+
+.complete-container-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    color: rgb(10, 61, 46);
+    background-color: cadetblue;
+    margin: 0 auto; 
+    padding: 8px 5px;
+    width: 80%;
+    height: auto;
+
+}
+
+.main-figure img {
+    image-rendering:auto;
+    border: solid 1px whitesmoke;
+    width: 100%;
+
+}
+
+
+
+
+
+
+.principal-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 40vw;
+    height: 30vh;;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgba(8, 190, 144, 0.945);
+}
+
+.principal-container figure{
+
+    margin: 0px auto;
+    width: 30%;
+    height: 75%;
+    position: relative;
+    margin: 0 auto;
+    bottom: 15rem;
+  
+    
+}
+
+.principal-container figure img {
+
+    border-radius: 100%;
+    width: 100%;
+   
+
+}
+
+.second-container {
+    font-weight: normal;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+}
+
+#title {
+    width: 17vw;
+    font-size: 2rem;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: rgb(32, 129, 142);
+    padding: 5px;
+    border-radius: 5px;
+    bottom: 33rem;
+    border: 1px solid black;
+}
+
+
+#Description {
+    width: 35vw;
+    font-size: 2rem;
+    color: rgb(71, 71, 71);
+    bottom: 11rem;
+}
+
+
+
+/*INICIO DEL FOOTER*/
+
+
+.footer-content1 {
+    background-color: rgb(9, 134, 123);
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(10, 61, 46);
+}
+
+.footer-content2 {
+    margin: 0px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.footer-content-nav {
+    margin: 0px;       /* --margin: Es un espacio externo del contenedor. */
+    list-style: none;  /* --list-style: Estilo de viñeta de una lista */
+    padding:10px;   /* --padding: Es un espacio interno en un contenedor. */
+    background-color: rgba(8, 190, 144, 0.945); /* -- background-color: Color de fondo */
+    
+}
+.footer-content-nav__item {
+    display:inline-block;
+    
+}
+
+.footer-content-nav__item a {
+    
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    padding: 0 25px;
+    border-radius: 10px;
+    text-decoration: none; 
+} 
+
+.footer-content-nav__item a:hover{    /*-----Define el estilo de una parte especifica de un elemento*/
+    color:  rgb(10, 61, 46);
+}
+
+.footer-content-nav__item a:active {
+    color: whitesmoke;
+}
 
 
 

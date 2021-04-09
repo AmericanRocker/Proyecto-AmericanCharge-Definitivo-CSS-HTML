@@ -1,0 +1,39 @@
+* {
+  /* scroll-behavior: smooth;*/
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav1-contener {
+    border: 0px;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(9, 134, 123);
+    
+    margin-bottom: 15px;
+}
+
+body {
+    background-color: #e9c46a ;
+}
+
+.nav1-contener-li {
+    display: inline-block;
+}
+
+.nav1-contener-li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+
+.nav1-contener-li a:hover {
+    background-color: black;
+}
+
+.nav1-contener-li a:active {
+    color: black;
+}

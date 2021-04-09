@@ -10,21 +10,44 @@
 </head>
 <body>
     <header>
-        <a href="/cursos/cursos.html">CURSOS</a>
+        <nav>
+            <ul class="main-nav1" >
+                <li class="main-nav1_list1"><a href="/index.html">HOME</a></li>
+                <li class="main-nav1_list1"><a href="/cursos/cursos.html">CURSOS</a></li>
+                <li class="main-nav1_list1"><a href="#">COMENTARIOS</a></li>
+                <li class="main-nav1_list1"><a href="#">AYUDA</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
+        <section class="main-section1">
             <h1>Bienvenido al curso de CSS3</h1>
-            <p>CSS (hojas de estilo en cascada) es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML).<br><br>Así, a los elementos de la página web creados con HTML se les dará la apariencia que se desee utilizando CSS: colores, espacios entre elementos, tipos de letra, ... separando de esta forma la estructura de la presentación.</p>
-            <p>Esta separación entre la estructura y la presentación es muy importante, ya que permite que sólo cambiando los CSS se modifique completamente el aspecto de una página web. Esto posibilita, entre otras cosas, que los usuarios puedan usar hojas de estilo personalizadas (como hojas de estilo de alto contraste o de accesibilidad).</p>
+            <p><b>CSS</b> (hojas de estilo en cascada) es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML).</p><br>
+
+                <figure>
+                    <img src="" alt="SiglaCSS">
+                </figure>
+                
+                
+            <p>Así, a los elementos de la página web creados con HTML se les dará la apariencia que se desee utilizando CSS: colores, espacios entre elementos, tipos de letra, ... separando de esta forma la estructura de la presentación.<br>
+            Esta separación entre la estructura y la presentación es muy importante, ya que permite que sólo cambiando los CSS se modifique completamente el aspecto de una página web. Esto posibilita, entre otras cosas, que los usuarios puedan usar hojas de estilo personalizadas (como hojas de estilo de alto contraste o de accesibilidad).</p>
         </section>
         <figure>
             <img src="/cursos/css/Images-CSS/CSS3-modulos.jpg" alt="HistoriaCSS" width="400px" />
             <figcaption><small>Versiones CCS</small></figcaption>
         </figure>
         <section>
+            <section>
+                <h2>Contenido:</h2>
+                <ol>
+                    <li><a href="#opcion1">Insertar CSS en Proyectos</a></li>
+                    <li><a href="#opcion2">Pseudo-Clases y Pseudo-Elementos</a></li>
+                    <li><a href="#opcion3">Anatomía de una regla en CSS</a></li>
+                    <li><a href="#opcion4">Modelo de Cajas en CSS</a></li>
+                </ol>
+            </section>
             <ol>
-                <h2><li>Insertar CSS en Proyectos</h2>
+                <h2><li id="opcion1">Insertar CSS en Proyectos</h2>
                         <p>Hay varias formas de porder insertar el codigo CSS a un proyecto real, a continuación te mostraremos con ejemplos claros cada una de estas formas:</p><br>
                         <ul>
                             <li><b><em>Etiqueta LINK:</em></b>
@@ -57,7 +80,7 @@
                             </li>
                         </ul>
                     </li>
-                <h2><li>Pseudo-Clases y Pseudo-Elementos</h2>
+                <h2><li id="opcion2">Pseudo-Clases y Pseudo-Elementos</h2>
                         <ul>
                             <li>
                                 <b><em>Pseudo-Clases</em></b>
@@ -88,14 +111,24 @@
 
                         </ul>
                     </li>
-                <h2><li>Anatomía de una regla en CSS</h2>
+                <h2><li id="opcion3">Anatomía de una regla en CSS</h2>
                         <p>La anatomía de una regla de estilos en <b>CSS</b> se compone de varias partes, los estilos pueden variar, pero su estructura siempre será la misma, a continuación tienes una infografia detallada. 
                         </p>
                         <figure>
                             <img src="./Images-CSS/reglacss_xl.png" alt="ReglaCSS" width="600px" />
                             <figcaption><small>Regla de Estilos CSS</small></figcaption>
                         </figure>
-
+                    </li>
+                <h2><li id="opcion4">Modelo de Cajas en CSS</h2>
+                        <p>A continuación podras obcervar el modelo de cajas en <b>CSS</b>, esta infografia te dará una nocion gráfica de como estan constituidas las cajas en CSS. 
+                        </p>
+                        <figure>
+                            <img src="./Images-CSS/Modelo-Cajas-css.png" alt="ModeloCajasCSS" width="600px" />
+                            <figcaption><small>Modelo de Cajas CSS</small></figcaption>
+                            <br><br>
+                            <img src="/cursos/css/Images-CSS/GraficacionReal.png" alt="GraficaModeloCSS" width="600px">
+                            <figcaption><small>Gráfica de Modelo de cajas</small></figcaption>
+                        </figure>
                     </li>
             </ol>
         </section>
