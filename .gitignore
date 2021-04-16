@@ -1,2 +1,7 @@
 #IGNORE OSX
 *.DS_Store
+
+#IGNORE IMAGE
+*.jpg
+*.png
+*.jpeg
