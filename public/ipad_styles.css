@@ -1,0 +1,139 @@
+
+
+@media(min-width: 700px) {
+
+    /* HEADER */
+
+    header {
+        width: 100vw;
+        min-width: 0px;
+        height: 12.5vh;
+        display: flex;
+        flex-direction: row;
+
+          
+    }
+
+    .header-nav {
+        width: 80vw;
+        min-width: 0px;
+        margin: 0 auto;
+        height: 100%;
+        background-color: white;
+
+    }
+
+    .main-nav1{
+        min-width: 0px;
+    }
+    .main-logo{
+        width: 20vw;
+        min-width: 0px;
+        height: 100%;
+      
+    }
+   
+
+    /* MAIN */
+   
+    .container-main {
+        min-width: 0px;
+        height: 70vh;
+
+    }
+
+    .main-aside{
+        min-width: 0px;
+        flex-direction: row;
+        background-color: whitesmoke;
+
+    }
+
+    .figure {
+        min-width: 0px;
+    }
+
+    .logo{
+        min-width: 0px;
+    }
+
+    .container-main{
+        min-width: 0px;
+    }
+    .main-section {
+        min-width: 0px;
+        height: 52.5vh;
+        order: 1;
+    }
+
+    .main-section2{
+        height: 17.5vh;
+        order: 2;
+    }
+
+    .content1 , .content2 {
+        width: 100%;  
+        min-width: 0px;
+        height: 100%;
+    }
+
+    
+   
+    /* FOOTER */
+
+    footer {
+        
+        height: 12.5vh;
+        flex-direction: row;
+        background-color: white;
+    }
+
+    .footer-content2 {
+        
+        width: 80vw;
+        min-width: 0px;
+        height: 100%;
+        order: 2;
+    }
+
+    .footer-content2-nav{
+        background-color: white;
+    }
+
+    .footer-content1 {
+        width: 20vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+
+    .footer-content1-nav1 {
+        width: 100%;
+        min-width: 0px;
+        height: 50%;
+        text-align: center;
+        align-items: flex-start;
+        font-size: 0.8rem;
+        order: 2;
+    
+    }
+
+    .footer-content1-nav2 {
+        width: 100%;
+        min-width: 0px;
+
+
+    }
+
+    .footer-content1-nav2__item {
+        align-items: flex-end;
+        width: 20%; 
+        min-width: none;
+    }
+
+    .footer-content1-nav2__item img{
+
+        height: 50%;
+        
+    }

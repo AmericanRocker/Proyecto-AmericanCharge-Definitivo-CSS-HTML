@@ -1,0 +1,141 @@
+@media(min-width: 1200px) {
+
+    /* HEADER */
+
+    header {
+        width: 100vw;
+        max-width: 2000px;
+        margin: 0 auto;
+        height: 6vh;
+        color: rgb(27, 25, 25);
+         
+    }
+
+    .main-nav1__item a{
+        font-size: 1.8rem;
+    }
+
+
+
+    .logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* MAIN */
+
+    main {
+        width: 100vw;
+        max-width: 2000px;
+        margin: 0 auto;
+        height: 87vh;
+        flex-direction: row;
+
+    }
+
+    .main-aside{
+        width: 20vw;
+        max-width: 400px;
+        flex-direction: column;
+        text-align: center;
+        order: 1;
+         
+    }
+    
+    .figure {
+        width: 20vw;
+        max-width: 400px;
+        height: 20%;
+    }
+
+    .main-aside-img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    .logo2 {
+        width: 35px;
+        height: 35px;
+    }
+
+    figure a {
+        font-size: 1.8rem;
+    }
+
+
+    .container-main {
+        display: flex;
+        flex-direction: row;
+        width: 80vw;
+        height: 100%;
+        order: 2;
+    }
+
+    .main-section {
+        width: 75% ;
+        height: 100%;
+        order: 1;
+    }
+
+    .section-figure {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .section-figure img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .main-section2{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: 100%;
+        order: 2;
+    }
+
+    /* FOOTER */
+
+    footer {
+        
+        width: 100vw;
+        max-width: 2000px;
+        margin: 0 auto;
+        height: 7vh;
+    }
+
+    .footer-content2 {
+        width: 60vw;
+    }
+
+
+    .footer-content1-nav1 {
+        height: 60%;
+        text-align: center;
+        font-size: 1rem;
+
+    }
+
+    .footer-content1-nav2 {
+        width: 100%;
+        height: 40%;
+    }
+
+    .footer-content1-nav2__item {
+        align-items: center;
+        width: 15%; 
+    }
+
+    .footer-content1-nav2__item img{
+
+        height: 100%;
+        
+    }
+
+
+}
+

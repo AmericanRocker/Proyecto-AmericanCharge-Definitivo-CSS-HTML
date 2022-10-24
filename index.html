@@ -1,118 +1,110 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="Description" content="American Charge, es el espacio de practica como web developer, aqui encontraras las bases practicas de cada curso realizado, obcervaras cambios que se iran ejecutando progresivamente vayan avanzando en cada uno de los temas propuestos en cada clase." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index,follow" />
-    <title>American Charge </title>
-    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/styles.css">         <!--  Mis estilos enfocados a Movile -->
+    <link rel="stylesheet" href="/ipad_styles.css" media="screen and (min-width: 720px">
+    <link rel="stylesheet" href="/desktop_styles.css" media="screen and (min-width: 1200px)">
+    <title>Layout Responsive</title>
 </head>
 <body>
     <header>
-        <nav class="nav-header">
-            <figure class="main-nav1__img">
-                <img src="/Img/logo.svg" alt="logoHeader de proyecto" />
-            </figure>
+        <figure class="main-logo">
+            <img class="logo" src="/Img/logo.svg" alt="Logo Principal">
+        </figure>
+        <nav class="header-nav">
             <ul class="main-nav1">
-                <li class="main-nav1__item"><a href="./index.html">HOME</a></li>
-                <li class="main-nav1__item"><a href="./cursos/cursos.html">CURSOS</a></li>
-                <li class="main-nav1__item"><a href="#Blog">COMENTARIOS</a></li>
-                <li class="main-nav1__item"><a href="#Ayuda">AYUDA</a></li>
+                <li class="main-nav1__item"><a href="#">HOME</a></li>
+                <li class="main-nav1__item"><a href="#">CURSOS</a></li>
+                <li class="main-nav1__item"><a href="#">COMENTARIOS</a></li>
+                <li class="main-nav1__item"><a href="#">AYUDA</a></li>
             </ul>
-            
         </nav>
     </header>
 
     <main>
-        
-        <aside class="main-aside"> 
-            <section class="main-aside-items">
-
-                <figure>
-                    <img class="logo1" src="/Img/search.png" alt="Logo de Busqueda">
-                    <figcaption><a href="#">Buscar</a></figcaption>
-                </figure>
-                <figure>
-                    <img class="logo2" src="/Img/networking.png" alt="Logo de Contenido">
-                    <figcaption><a href="#">Contenido</a></figcaption>
-                </figure>
-                <figure>
-                    <img class="logo3" src="/Img/browser.png" alt="Logo de Proyectos">
-                    <figcaption><a href="#">Proyectos</a></figcaption>
-                </figure>
-                <figure>
-                    <img class="logo4" src="/Img/cloud-computing.png" alt="Logo de Blog">
-                    <figcaption><a href=".#">Blog</a></figure></figcaption>
-                <figure>
-                    <img class="logo5" src="/Img/headphones.png" alt="Logo de Soporte">
-                    <figcaption><a href="#">Soporte</a></figcaption>
-                </figure>       
-            </section>
+        <aside class="main-aside">
+            <figure class="content-figure1 figure">
+                <img class="logo1 main-aside-img"  src="/Img/search.png" alt="Logo de Busqueda">
+                <figcaption class="aside-nave-text1"><a href="#">Buscar</a></figcaption>
+            </figure>
+            <figure class="content-figure2 figure">
+                <img class="logo2 main-aside-img" src="/Img/networking.png" alt="Logo de Contenido">
+                <figcaption class="aside-nave-text2"><a href="#">Contenido</a></figcaption>
+            </figure>
+            <figure class="content-figure3 figure">
+                <img class="logo3 main-aside-img" src="/Img/browser.png" alt="Logo de Proyectos">
+                <figcaption class="aside-nave-text3"><a href="#">Proyectos</a></figcaption>
+            </figure>
+            <figure class="content-figure4 figure">
+                <img class="logo4 main-aside-img" src="/Img/cloud-computing.png" alt="Logo de Blog">
+                <figcaption class="aside-nave-text4"><a href=".#">Blog</a></figcaption>
+            </figure>
+            <figure class="content-figure5 figure">
+                <img class="logo5 main-aside-img" src="/Img/headphones.png" alt="Logo de Soporte">
+                <figcaption class="aside-nave-text5"><a href="#">Soporte</a></figcaption>
+            </figure>       
         </aside>
 
-        <article class="main-container">
-                <figure class=" main-container-figure1">
-                    <img src="/Img/background.jpg" alt="Fondo Back">
+        <section class="container-main">
+            <section class="main-section">
+                <figure class="section-figure">
+                    <img class="section-figure-img1" src="/Img/background.jpg" alt="Imagen Decorativa">
                 </figure>
-
-
-                 <!-- <div class="second-container" id="Description">
-                    <p>
-                        Me apasiona profundamente la tecnología digital, el área de desarrollo de software es mi fuerte, aunque a lo largo de mi vida profesional he incorporado conocimientos asociados a otras áreas. Mi meta a mediano plazo es convertirme en un gran Full Stack Developer.
-                   </p><br>
-                   <p ><b>Nestor Quiroga Suárez</b></p>
-                </div>
-                    <div class="title">Junior Software Developer</div>
-                    <figure class="figureOne"> 
-                        <img id="picture" src="/Foto-perfil.png" alt="Imagen-Nequi">
-                    </figure>
-            
-                </div> -->
             </section>
-        </article>
+
+            <section class="main-section2">
+                <div class="content1">Box 1</div>
+                <div class="content2">Box 2</div>
+            </section>
+        </section>
+       
     </main>
 
     <footer>
-            <nav class="nav-footer">
 
-                <section class="footer-content1">
-                    <div class="footer-content1-nav1">
-                        <span class="footer-content1-nav1__item">
-                             <p>
-                                <b>Copyright</b><br>
-                                Derechos Reservados <b>&copy</b><br>
-                                Última modificación: 17 de abril de 2021.
-                             </p>
-                        </span>
-                    </div>
-                    <div class="footer-content1-nav2">
-                        <figure class="footer-content1-nav2__item">
-                            <img src="/Img/facebook.png" alt="Icono Facebook">
-                        </figure>
-                        <figure class="footer-content1-nav2__item">
-                            <img src="/Img/instagram.png" alt="Icono Instagram">
-                        </figure>
-                        <figure class="footer-content1-nav2__item">
-                            <img src="/Img/linkedin.png" alt="Icono Linkend">
-                        </figure>
-                    </div>
-                </section>    
+        <section class="footer-content1">
 
-                <section class="footer-content2">
-                    <ul class="footer-content2-nav">
-                        <li class="footer-content2-nav__item"><a href="/registro/registro.html">Registro</a></li>
-                        <li class="footer-content2-nav__item"><a href="#Blog">Enviar comentarios</a></li>
-                        <li class="footer-content2-nav__item"><a href="#">Privacidad</a></li>
-                        <li class="footer-content2-nav__item"><a href="#">Condiciones</a></li>  
-                    </ul>
-                </section>
-            </nav>
+            <div class="footer-content1-nav1">
+                <span class="footer-content1-nav1__item">
+                     <p>
+                        <b>Copyright</b><br>
+                        Derechos Reservados <b>&copy</b><br>
+                        Última modificación: 09 Mayo de 2021.
+                     </p>
+                </span>
+            </div>
+
+            <div class="footer-content1-nav2">
+                <figure class="footer-content1-nav2__item">
+                    <img class="footer-logo1" src="/Img/facebook.png" alt="Icono Facebook">
+                </figure>
+                <figure class="footer-content1-nav2__item">
+                    <img  class="footer-logo2" src="/Img/instagram.png" alt="Icono Instagram">
+                </figure>
+                <figure class="footer-content1-nav2__item">
+                    <img class="footer-logo3" src="/Img/linkedin.png" alt="Icono Linkend">
+                </figure>
+            </div>
+            
+        </section>
+
+        <section class="footer-content2">
+            <ul class="footer-content2-nav">
+                <li class="footer-content2-nav__item"><a href="#">Registro</a></li>
+                <li class="footer-content2-nav__item"><a href="#">Enviar <br>comentarios</a></li>
+                <li class="footer-content2-nav__item"><a href="#">Privacidad</a></li>
+                <li class="footer-content2-nav__item"><a href="#">Condiciones</a></li>  
+            </ul>
+        </section>
+
+            
+
     </footer>
+    
 </body>
 </html>
-
-
-<!-- color: #304f4f;
-color: #DAA520;
-color: #FAEBD7;  -->
