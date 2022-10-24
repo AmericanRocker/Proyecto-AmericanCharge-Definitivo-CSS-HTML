@@ -39,10 +39,6 @@
 *.tiff
 *.tif
 
-# Scalable Vector Graphics
-*.svg
-*.svgz
-
 # Portable Document Format
 *.pdf
 
