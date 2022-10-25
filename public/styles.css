@@ -101,6 +101,10 @@ main {
   background-color: rgba(8, 190, 144, 0.945);
 }
 
+.figure:active {
+  transform: scale(0.95)
+}
+
 .logo1,
 .logo2,
 .logo3,
@@ -276,7 +280,6 @@ footer {
 
 .footer-content1-nav2__item {
   margin: 0 auto;
-  background-color:black;
   width: 3rem;
   min-width: 25px;
   height: 80%;
@@ -287,5 +290,4 @@ footer {
 
 .footer_logo {
   height: 100%;
-  background-color:red;
 }
